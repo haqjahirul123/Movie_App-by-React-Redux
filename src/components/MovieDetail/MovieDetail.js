@@ -45,11 +45,11 @@ const MovieDetail = () => {
             <div className="movie-plot">{data.Plot}</div>
             <div className="movie-info">
               <div>
-                <span>Director</span>
+                <span>Director Name</span>
                 <span>{data.Director}</span>
               </div>
               <div>
-                <span>Stars</span>
+                <span>Stars Name</span>
                 <span>{data.Actors}</span>
               </div>
               <div>
@@ -61,7 +61,7 @@ const MovieDetail = () => {
                 <span>{data.Language}</span>
               </div>
               <div>
-                <span>Awards</span>
+                <span>Awards Winner</span>
                 <span>{data.Awards}</span>
               </div>
             </div>
